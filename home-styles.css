@@ -365,11 +365,6 @@ img {
   transition: background-color 0.2s;
 }
 
-.feature-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-}
-
 .feature-link:hover {
   background-color: var(--secondary-color);
 }
@@ -392,11 +387,6 @@ img {
   overflow: hidden;
   box-shadow: var(--shadow-sm);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.course-card:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-lg);
 }
 
 .course-image img {
@@ -491,11 +481,6 @@ img {
   box-shadow: var(--shadow);
   padding: 1.5rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-lg);
 }
 
 .project-header {
@@ -620,11 +605,6 @@ img {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.community-card:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-lg);
-}
-
 .community-image {
   height: 10rem;
   overflow: hidden;
@@ -635,10 +615,6 @@ img {
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
-}
-
-.community-card:hover .community-image img {
-  transform: scale(1.05);
 }
 
 .community-content {
