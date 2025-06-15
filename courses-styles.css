@@ -566,11 +566,6 @@ ol {
   overflow: hidden;
   box-shadow: var(--shadow);
 }
-
-.course-card:hover{
-  transform: translateY(-4px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-}
 .course-image {
   position: relative;
   height: 18rem;
