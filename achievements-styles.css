@@ -501,11 +501,6 @@
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
   
-  .achievement-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-  
   .achievement-card.locked {
     background-color: var(--muted);
     opacity: 0.7;
