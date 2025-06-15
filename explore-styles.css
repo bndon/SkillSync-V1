@@ -501,11 +501,6 @@ transform: rotate(180deg);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.content-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-}
-
 .content-image {
   position: relative;
   height: 18rem;
@@ -596,11 +591,6 @@ transform: rotate(180deg);
   background-color: var(--card);
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.community-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 .community-header {
